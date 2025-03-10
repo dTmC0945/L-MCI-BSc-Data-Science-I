@@ -7,15 +7,19 @@
   - [[#lecture-sources][Lecture Sources]]
   - [[#content-and-unit-distribution][Content and Unit Distribution]]
   - [[#lecture-table-of-contents][Lecture Table of Contents]]
+  - [[#documentation][Documentation]]
   - [[#related-links][Related Links]]
 
 ** Lecture Information
 
+- *WARNING:* This is the content only covered by me as this lecture is shared by
+  both me and Dr. Julian Huber.
+    
 - The goal of this lecture is to give you a working understanding
   of data analysis and give you the practical mathematical knowledge
-  for use in Data Science II.
+  for use in Data Science II and future lectures/applications.
 - While some parts will be done with pen and paper we will work with
-  python for solving some applications.
+  python for solving some applications as lecture goes on.
 
 The structure for this lecture is as follows.
 
@@ -25,16 +29,16 @@ The structure for this lecture is as follows.
 | Module Code        | MECH-B-4-MLDS-MLDS1-ILV           |
 | Degree             | B.Sc                              |
 | Program Name       | Mechatronik Design Innovation     |
-| Lecture Name       | Drive Systems                     |
+| Lecture Name       | Data Science I                    |
 | Semester           | 4                                 |
 | Season             | SS                                |
 | Room Type          | Lecture Room                      |
 | Assignments        | HW 1 HW 2 HW 3                    |
 | Lecturer           | Daniel T. McGuiness, Ph.D         |
 | Module Responsible | BnM                               |
-| Software           | Python, Simulink                  |
+| Software           | Python                            |
 | Hardware           | -                                 |
-| SWS Total          | 2                                 |
+| SWS Total          | 4                                 |
 | SWS Tutorial       | 2                                 |
 | ECTS               | 5                                 |
 | Lecture Type       | ILV                               |
@@ -43,6 +47,10 @@ The structure for this lecture is as follows.
 
 - The student should be comfortable with working with python and have
   a good background with mathematics.
+
+- For a revision on some of these topics plase look at the following repos:
+
+- [[https://github.com/dTmC0945/L-MCI-BSc-Python-for-Engineering-and-Economics][B.Sc Python for Engineering and Economics]]  
 
 | REQUIREMENTS   | TAUGHT LECTURE | CODE  | DEGREE | OUTCOME          |
 | Python Python  | Programming I  | PRG I | B.Sc   | Probability      |
@@ -54,10 +62,9 @@ The structure for this lecture is as follows.
 ** Grading of the Lecture
 
 - This part of Data Science I will be %100 assignments based as there
-  will be three assignments where you need to solve given questions using
-  python programming language.
+  will be three (3) assignments where you need to solve given questions using
+  python programming language and/or standard pen and paper.
 
-      
 | ASSIGNMENT TYPE | VALUE |
 | HW 1            |    30 |
 | HW 2            |    30 |
@@ -71,7 +78,6 @@ goes well with the lectures.
 
 | AUTHOR                | TITLE                                                                       | PUBLISHER        |
 | A. Gut                | Probability: A Graduate Course                                              | Springer (2005)  |
-| W. A. Strauss         | Partial Differential Equations - An Introduction                            | Wiley (2008)     |
 | R. E. Walpole, et. al | Probability and Statistics for Engineers & Scientists                       | Pearson (2012)   |
 | G. F. Simmons         | Differential Equations with Applications and Historical Notes (3rd Edition) | CRC Press (2017) |
 | D. C. Montgomery      | Applied Statistics and Probability for Engineers (3rd Edition)              | Wiley (2003)     |
@@ -81,18 +87,18 @@ goes well with the lectures.
 - The content and unit distribution of the lecture is as follows where a unit
   is defined as 45 min lecture.
  
-| TOPIC                      | UNITS | SELF STUDY |
-| Theory of Probability - I  |     4 |          8 |
-| Theory of Probability - II |     2 |          4 |
-| Statistics - I             |     4 |          8 |
-| Statistics - II            |     2 |          4 |
-| Data Cleaning - I          |     4 |          8 |
-| Data Cleaning - II         |     2 |          4 |
-| Classification - I         |     2 |          4 |
-| Classification - II        |     4 |          8 |
-| Regression - I             |     4 |          8 |
-| Regression - II            |     2 |          4 |
-| SUM                        |    30 |         60 |
+| ORDER | TOPIC                      | UNITS | SELF STUDY |
+|     1 | Theory of Probability - I  |     4 |          8 |
+|     2 | Theory of Probability - II |     2 |          4 |
+|     3 | Statistics - I             |     4 |          8 |
+|     4 | Statistics - II            |     2 |          4 |
+|     5 | Data Cleaning - I          |     4 |          8 |
+|     6 | Data Cleaning - II         |     2 |          4 |
+|     7 | Classification - I         |     2 |          4 |
+|     8 | Classification - II        |     4 |          8 |
+|     9 | Regression - I             |     4 |          8 |
+|    10 | Regression - II            |     2 |          4 |
+|    11 | SUM                        |    30 |         60 |
 
 ** Lecture Table of Contents
 
@@ -102,7 +108,7 @@ four (4) parts:
 1. Probability Theory
 2. Statistical Analysis
 3. Data Cleaning
-4. Classificaiton
+4. Classificaiton & Regression
 
 Below is the detailed structure of the lecture.
 
@@ -194,5 +200,11 @@ Below is the detailed structure of the lecture.
     - Advantages & Disadvantages
       - Advantages
       - Disadvantages
+
+** Documentation
+
+For any student in need of a LaTex class designed from the ground-up for
+assignment/lab/thesis/slide for MCI needs please have a look at ~mcidoc~ class
+hosted at [[https://github.com/dTmC0945/C-MCI-LaTeX-Class-mcidoc][GitHub]].      
 
 (-DTMc 2025)
