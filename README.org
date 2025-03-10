@@ -1,0 +1,198 @@
+#+title: BSc Data Science I
+
+** Table of Contents :TOC_2:
+  - [[#lecture-information][Lecture Information]]
+  - [[#requirements-and-the-learning-outcomes][Requirements and the Learning Outcomes]]
+  - [[#grading-of-the-lecture][Grading of the Lecture]]
+  - [[#lecture-sources][Lecture Sources]]
+  - [[#content-and-unit-distribution][Content and Unit Distribution]]
+  - [[#lecture-table-of-contents][Lecture Table of Contents]]
+  - [[#related-links][Related Links]]
+
+** Lecture Information
+
+- The goal of this lecture is to give you a working understanding
+  of data analysis and give you the practical mathematical knowledge
+  for use in Data Science II.
+- While some parts will be done with pen and paper we will work with
+  python for solving some applications.
+
+The structure for this lecture is as follows.
+
+| DESCRIPTION        | VALUE                             |
+| Official Name      | Machine Learning & Data Science 1 |
+| Lecture Code       | MLDS                              |
+| Module Code        | MECH-B-4-MLDS-MLDS1-ILV           |
+| Degree             | B.Sc                              |
+| Program Name       | Mechatronik Design Innovation     |
+| Lecture Name       | Drive Systems                     |
+| Semester           | 4                                 |
+| Season             | SS                                |
+| Room Type          | Lecture Room                      |
+| Assignments        | HW 1 HW 2 HW 3                    |
+| Lecturer           | Daniel T. McGuiness, Ph.D         |
+| Module Responsible | BnM                               |
+| Software           | Python, Simulink                  |
+| Hardware           | -                                 |
+| SWS Total          | 2                                 |
+| SWS Tutorial       | 2                                 |
+| ECTS               | 5                                 |
+| Lecture Type       | ILV                               |
+
+** Requirements and the Learning Outcomes
+
+- The student should be comfortable with working with python and have
+  a good background with mathematics.
+
+| REQUIREMENTS   | TAUGHT LECTURE | CODE  | DEGREE | OUTCOME          |
+| Python Python  | Programming I  | PRG I | B.Sc   | Probability      |
+| Linear Algebra | Mathematics I  | MAT I | B.Sc   | Statistics       |
+| -              | -              | -     | -      | Data Engineering |
+| -              | -              | -     | -      | -                |
+| -              | -              | -     | -      | -                |
+
+** Grading of the Lecture
+
+- This part of Data Science I will be %100 assignments based as there
+  will be three assignments where you need to solve given questions using
+  python programming language.
+
+      
+| ASSIGNMENT TYPE | VALUE |
+| HW 1            |    30 |
+| HW 2            |    30 |
+| HW 3            |    40 |
+| SUM             |   100 |
+
+** Lecture Sources
+
+The following are a table of documentation which are useful resources which
+goes well with the lectures.
+
+| AUTHOR                | TITLE                                                                       | PUBLISHER        |
+| A. Gut                | Probability: A Graduate Course                                              | Springer (2005)  |
+| W. A. Strauss         | Partial Differential Equations - An Introduction                            | Wiley (2008)     |
+| R. E. Walpole, et. al | Probability and Statistics for Engineers & Scientists                       | Pearson (2012)   |
+| G. F. Simmons         | Differential Equations with Applications and Historical Notes (3rd Edition) | CRC Press (2017) |
+| D. C. Montgomery      | Applied Statistics and Probability for Engineers (3rd Edition)              | Wiley (2003)     |
+
+** Content and Unit Distribution
+
+- The content and unit distribution of the lecture is as follows where a unit
+  is defined as 45 min lecture.
+ 
+| TOPIC                      | UNITS | SELF STUDY |
+| Theory of Probability - I  |     4 |          8 |
+| Theory of Probability - II |     2 |          4 |
+| Statistics - I             |     4 |          8 |
+| Statistics - II            |     2 |          4 |
+| Data Cleaning - I          |     4 |          8 |
+| Data Cleaning - II         |     2 |          4 |
+| Classification - I         |     2 |          4 |
+| Classification - II        |     4 |          8 |
+| Regression - I             |     4 |          8 |
+| Regression - II            |     2 |          4 |
+| SUM                        |    30 |         60 |
+
+** Lecture Table of Contents
+
+The structure of the B.Sc Data Science I can be grouped into
+four (4) parts:
+
+1. Probability Theory
+2. Statistical Analysis
+3. Data Cleaning
+4. Classificaiton
+
+Below is the detailed structure of the lecture.
+
+- Theory of Probability
+  - Introduction
+  - Experiments & Outcomes
+    - Unions, Intersections, and Complements of Events
+  - Probability
+  - Permutations & Combinations
+    - Permutations
+    - Combinations
+    - Factorial Function
+    - Binomial Coefficients
+  - Random Variables and Probability Distributions
+    - Discrete Random Variables and Distributions
+    - Continuous Random Variables and Distributions
+  - Mean and Variance of a Distribution
+      - Symmetry
+  - Binomial, Poisson, and Hyper-geometric Distributions
+    - Sampling with Replacement
+    - Sampling without Replacement: Hyper-geometric Distribution
+  - Normal Distribution
+    - Distribution Function
+    - Numeric Values
+    - Normal Approximation of the Binomial Distribution
+  - Distribution of Several Random Variables
+    - Discrete Two-Dimensional Distribution
+    - Continuous Two-Dimensional Distribution
+    - Marginal Distributions of a Discrete Distribution
+    - Marginal Distributions of a Continuous Distribution
+    - Independence of Random Variables
+    - Functions of Random Variables
+    - Addition of Means
+    - Addition of Variances
+- Regression
+  - Introduction
+  - Ordinary Least Squares
+    - A Medical Analysis
+    - Exam Performance
+      - Perform OLS Regression
+      - Visualisation
+  - Linear Regression
+    - Necessary Assumptions
+    - Types of Linear Regression
+    - Simple Linear Regression
+      - Python Implementation
+      - Estimating Coefficient Function
+      - Plotting Regression Line
+      - Putting it Together
+    - Multiple Linear Regression
+      - Python Implementation
+    - Polynomial Linear Regression
+      - Choosing a Degree for Polynomial Regression
+      - Python Implementation
+    - Polynomial Linear Regression - Example 2
+    - Applications of Linear Regression
+      - Advantages of Linear Regression
+      - Disadvantages of Linear Regression
+  - Non-Linear Regression
+    - In Context of Data Science & Machine Learning
+    - Necessary Assumptions
+    - Flavours of Non-Linear Regression
+    - Algorithms used in Non-Linear Regression
+      - Polynomial Regression
+      - Exponential Regression
+      - Logarithmic Regression
+      - Power Regression
+      - Generalised Additive Models (GAMs) 
+    - Evaluating Non-Linear Regression Models
+    - Operating Principle
+    - Python Implementation
+      - Importing Libraries
+      - Importing the Dataset
+      - Plotting the original Data
+      - Simple Logistic Curve Model
+      - Define Sigmoid Function
+      - Plot the initial prediction against data-points
+    - Normalising Data
+      - Fitting sigmoid function to normalized data
+      - Normalised Sigmoid Regression
+      - Predictions
+      - Applications
+      - Advantages & Disadvantages of Non-Linear Regression
+  - Recursive Least Square
+  - Least Absolute Shrinkage and Selection Operator (LASSO)
+    - The concept of LASSO
+      - Operation Principle
+    -  Python Implementation
+    - Advantages & Disadvantages
+      - Advantages
+      - Disadvantages
+
+(-DTMc 2025)
