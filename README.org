@@ -1,4 +1,5 @@
-#+title: BSc Data Science I
+#+title: LS BSc Data Science I
+
 
 ** Table of Contents :TOC_2:
   - [[#lecture-information][Lecture Information]]
@@ -8,119 +9,129 @@
   - [[#content-and-unit-distribution][Content and Unit Distribution]]
   - [[#lecture-table-of-contents][Lecture Table of Contents]]
   - [[#documentation][Documentation]]
-  - [[#related-links][Related Links]]
 
 ** Lecture Information
 
-- *WARNING:* This is the content only covered by me as this lecture is shared by
-  both me and Dr. Julian Huber.
-    
-- The goal of this lecture is to give you a working understanding
-  of data analysis and give you the practical mathematical knowledge
-  for use in Data Science II and future lectures/applications.
-- While some parts will be done with pen and paper we will work with
-  python for solving some applications as lecture goes on.
 
-The structure for this lecture is as follows.
+The goal of this lecture is to give you an introduction to the ever-growing
+industry of machine learning and its other side of the coin, data science.
 
-| DESCRIPTION        | VALUE                             |
-| Official Name      | Machine Learning & Data Science 1 |
-| Lecture Code       | MLDS                              |
-| Module Code        | MECH-B-4-MLDS-MLDS1-ILV           |
-| Degree             | B.Sc                              |
-| Program Name       | Mechatronik Design Innovation     |
-| Lecture Name       | Data Science I                    |
-| Semester           | 4                                 |
-| Season             | SS                                |
-| Room Type          | Lecture Room                      |
-| Assignments        | HW 1 HW 2 HW 3                    |
-| Lecturer           | Daniel T. McGuiness, Ph.D         |
-| Module Responsible | BnM                               |
-| Software           | Python                            |
-| Hardware           | -                                 |
-| SWS Total          | 4                                 |
-| SWS Tutorial       | 2                                 |
-| ECTS               | 5                                 |
-| Lecture Type       | ILV                               |
+| INDEX | DESCRIPTION        | VALUE                             | STATUS |
+|-------+--------------------+-----------------------------------+--------|
+|     1 | Official Name      | Machine Learning & Data Science 1 |        |
+|-------+--------------------+-----------------------------------+--------|
+|     2 | Lecture Code       | MLDS                              | A      |
+|     3 | Module Code        | MECH-B-4-MLDS-MLDS1-ILV           | A      |
+|     4 | Degree             | B.Sc                              | A      |
+|     5 | Program Name       | Mechatronik Design Innovation     | A      |
+|     6 | Lecture Name       | Data Science I                    |        |
+|     7 | Semester           | 4                                 | A      |
+|     8 | Season             | SS                                | A      |
+|     9 | Room Type          | Lecture Room                      |        |
+|    10 | Assignments        | HW 1 HW 2 HW 3                    | A      |
+|    11 | Lecturer           | Daniel T. McGuiness, Ph.D         |        |
+|    12 | Module Responsible | BnM                               | A      |
+|-------+--------------------+-----------------------------------+--------|
+|    13 | Software           | Python                            |        |
+|    14 | Hardware           | -                                 |        |
+|-------+--------------------+-----------------------------------+--------|
+|    15 | SWS Total          | 4                                 | A      |
+|    16 | SWS Teaching       | 0                                 |        |
+|    17 | SWS Tutorial       | 0                                 |        |
+|    18 | SWS Laboratory     | 0                                 |        |
+|    19 | SWS Project Work   | 0                                 |        |
+|-------+--------------------+-----------------------------------+--------|
+|    20 | UE Total           | 60                                | A      |
+|    21 | UE Teaching        | 0                                 | A      |
+|    22 | UE Tutorial        | 30                                | A      |
+|    23 | UE Laboratory      | 0                                 | A      |
+|    24 | Assessment Units   | 0                                 | A      |
+|    25 | Planned Units      | 60                                | A      |
+|-------+--------------------+-----------------------------------+--------|
+|    26 | ECTS               | 5                                 | A      |
+|    27 | Lecture Type       | ILV                               | A      |
+|    28 | Working Language   | English                           |        |
+|-------+--------------------+-----------------------------------+--------|
+
 
 ** Requirements and the Learning Outcomes
 
-- The student should be comfortable with working with python and have
+- The student should be comfortable with working with the Python and have
   a good background with mathematics.
 
-- For a revision on some of these topics plase look at the following repos:
 
-- [[https://github.com/dTmC0945/L-MCI-BSc-Python-for-Engineering-and-Economics][B.Sc Python for Engineering and Economics]]  
-
-| REQUIREMENTS   | TAUGHT LECTURE | CODE  | DEGREE | OUTCOME          |
-| Python Python  | Programming I  | PRG I | B.Sc   | Probability      |
-| Linear Algebra | Mathematics I  | MAT I | B.Sc   | Statistics       |
-| -              | -              | -     | -      | Data Engineering |
-| -              | -              | -     | -      | -                |
-| -              | -              | -     | -      | -                |
+| INDEX | REQUIREMENTS   | TAUGHT LECTURE | CODE  | DEGREE | OUTCOME          |
+|-------+----------------+----------------+-------+--------+------------------|
+|     1 | Python Python  | Programming I  | PRG I | B.Sc   | Probability      |
+|     2 | Linear Algebra | Mathematics I  | MAT I | B.Sc   | Statistics       |
+|     3 | -              | -              | -     | -      | Data Engineering |
+|     4 | -              | -              | -     | -      | -                |
+|     5 | -              | -              | -     | -      | -                |
+|-------+----------------+----------------+-------+--------+------------------|
 
 ** Grading of the Lecture
 
+
 - This part of Data Science I will be %100 assignments based as there
-  will be three (3) assignments where you need to solve given questions using
+  will be two (2) assignments where you need to solve given questions using
   python programming language and/or standard pen and paper.
 
-| ASSIGNMENT TYPE | VALUE |
-| HW 1            |    30 |
-| HW 2            |    30 |
-| HW 3            |    40 |
-| SUM             |   100 |
+| ASSIGNMENT TYPE       | VALUE | QUANTITY |
+|-----------------------+-------+----------|
+| Personal Assignment A |    50 |        1 |
+| Personal Assignment B |    50 |        1 |
+|-----------------------+-------+----------|
+| SUM                   |   100 |        2 |
 
 ** Lecture Sources
 
 The following are a table of documentation which are useful resources which
 goes well with the lectures.
 
-| AUTHOR                | TITLE                                                                       | PUBLISHER        |
-| A. Gut                | Probability: A Graduate Course                                              | Springer (2005)  |
-| R. E. Walpole, et. al | Probability and Statistics for Engineers & Scientists                       | Pearson (2012)   |
-| G. F. Simmons         | Differential Equations with Applications and Historical Notes (3rd Edition) | CRC Press (2017) |
-| D. C. Montgomery      | Applied Statistics and Probability for Engineers (3rd Edition)              | Wiley (2003)     |
+| INDEX | AUTHOR                | TITLE                                                                       | PUBLISHER        | TYPE | LINK |
+|-------+-----------------------+-----------------------------------------------------------------------------+------------------+------+------|
+|     1 | A. Gut                | Probability: A Graduate Course                                              | Springer (2005)  | Book |      |
+|     2 | R. E. Walpole, et. al | Probability and Statistics for Engineers & Scientists                       | Pearson (2012)   | Book |      |
+|     3 | G. F. Simmons         | Differential Equations with Applications and Historical Notes (3rd Edition) | CRC Press (2017) | Book |      |
+|     4 | D. C. Montgomery      | Applied Statistics and Probability for Engineers (3rd Edition)              | Wiley (2003)     | Book |      |
+|-------+-----------------------+-----------------------------------------------------------------------------+------------------+------+------|
+
 
 ** Content and Unit Distribution
+
 
 - The content and unit distribution of the lecture is as follows where a unit
   is defined as 45 min lecture.
  
-| ORDER | TOPIC                      | UNITS | SELF STUDY |
-|     1 | Theory of Probability - I  |     4 |          8 |
-|     2 | Theory of Probability - II |     2 |          4 |
-|     3 | Statistics - I             |     4 |          8 |
-|     4 | Statistics - II            |     2 |          4 |
-|     5 | Data Cleaning - I          |     4 |          8 |
-|     6 | Data Cleaning - II         |     2 |          4 |
-|     7 | Classification - I         |     2 |          4 |
-|     8 | Classification - II        |     4 |          8 |
-|     9 | Regression - I             |     4 |          8 |
-|    10 | Regression - II            |     2 |          4 |
-|    11 | SUM                        |    30 |         60 |
+| ORDER | TOPIC                              | UNITS | SELF STUDY |
+|-------+------------------------------------+-------+------------|
+|     1 | Theory of Probability              |     8 |         16 |
+|     2 | Statistical Methods                |     8 |         16 |
+|     3 | Regression Models                  |    12 |         24 |
+|     4 | Single Factor Experiments          |     4 |          8 |
+|     5 | Factorial Experiments              |     4 |          8 |
+|     6 | Nonparametric Statistics           |     4 |          8 |
+|     7 | Bayesian Statistics                |     4 |          8 |
+|     8 | The Essentials of Machine Learning |     8 |         16 |
+|     9 | A Machine Learning Project         |     8 |         16 |
+|-------+------------------------------------+-------+------------|
+|    10 | SUM                                |    60 |        120 |
 
 ** Lecture Table of Contents
-
-The structure of the B.Sc Data Science I can be grouped into
-four (4) parts:
-
-1. Probability Theory
-2. Statistical Analysis
-3. Data Cleaning
-4. Classificaiton & Regression
 
 Below is the detailed structure of the lecture.
 
 - Theory of Probability
   - Introduction
-  - Experiments & Outcomes
+    - Representing Data
+    - Graphic Representation of Data
+    - Experiments & Outcomes
     - Unions, Intersections, and Complements of Events
   - Probability
-  - Permutations & Combinations
+  - Permutations and Combinations
     - Permutations
     - Combinations
-    - Factorial Function
+    - Factorial
     - Binomial Coefficients
   - Random Variables and Probability Distributions
     - Discrete Random Variables and Distributions
@@ -128,9 +139,9 @@ Below is the detailed structure of the lecture.
   - Mean and Variance of a Distribution
       - Symmetry
   - Binomial, Poisson, and Hyper-geometric Distributions
-    - Sampling with Replacement
-    - Sampling without Replacement: Hyper-geometric Distribution
-  - Normal Distribution
+    - Sampling with
+    - Sampling without Replacement: Hyper-geometric
+  - Normal
     - Distribution Function
     - Numeric Values
     - Normal Approximation of the Binomial Distribution
@@ -143,68 +154,232 @@ Below is the detailed structure of the lecture.
     - Functions of Random Variables
     - Addition of Means
     - Addition of Variances
-- Regression
+- Statistical Methods
   - Introduction
-  - Ordinary Least Squares
-    - A Medical Analysis
-    - Exam Performance
-      - Perform OLS Regression
-      - Visualisation
-  - Linear Regression
-    - Necessary Assumptions
-    - Types of Linear Regression
-    - Simple Linear Regression
-      - Python Implementation
-      - Estimating Coefficient Function
-      - Plotting Regression Line
-      - Putting it Together
-    - Multiple Linear Regression
-      - Python Implementation
-    - Polynomial Linear Regression
-      - Choosing a Degree for Polynomial Regression
-      - Python Implementation
-    - Polynomial Linear Regression - Example 2
-    - Applications of Linear Regression
-      - Advantages of Linear Regression
-      - Disadvantages of Linear Regression
-  - Non-Linear Regression
-    - In Context of Data Science & Machine Learning
-    - Necessary Assumptions
-    - Flavours of Non-Linear Regression
-    - Algorithms used in Non-Linear Regression
+  - Point Estimation of Parameters
+    - Maximum Likelihood Method
+  - Confidence Intervals
+  - Testing of Hypotheses and Making Decisions
+      - One-Sided and Two-Sided Alternatives
+    - Errors in Tests
+  - Quality Control
+    - Control Chart for the Mean
+    - Control Chart for the Variance
+    - Control Chart for the Standard Deviation
+    - Control Chart for the Range
+  - Acceptance Sampling
+    - Errors in Acceptance Sampling
+    - Rectification
+  - Goodness of Fit
+  - Non-parametric Tests
+  - Regression and Correlation
+    - Regression Analysis
+    - Confidence Intervals
+    - Correlation Analysis
+    - Test for the Correlation Coefficient
+  - Bayesian Statistics
+    - Subjective Probability
+- Regression Models
+  - Simple Linear Regression and Correlation
+    - The Simple Linear Regression (SLR) Model
+      - The Fitted Regression Line
+      - Another Look at the Model Assumptions
+      - Least Squares and the Fitted Model
+      - The Method of Least Squares
+    - Properties of the Least Squares Estimators
+      - Mean and Variance of Estimators
+      - Partition of Total Variability and Estimation of gsigma[][2]
+      - The Estimator of gsigma[][2] as a Mean Squared Error
+    - Inferences Concerning the Regression Coefficients
+      - Hypothesis Testing on the Slope
+      - Statistical Inference on the Intercept
+      - A Measure of Quality of Fit: Coefficient of Determination
+      - Pitfalls in the Use of R[][2]
+    - Prediction
+      - Prediction Interval
+    - Choice of a Regression Model
+    - Analysis-of-Variance Approach
+      - Annotated Computer Printout for Simple Linear Regression
+    - Test for Linearity of Regression: Data with Repeated Observations
+      - Concept of Lack of Fit
+    - Data Plots and Transformations
+      - What Are the Implications of a Transformed Model?
+      - Diagnostic Plots of Residuals: Graphical Detection of Violation of Assumptions
+      - Nonhomogeneous Variance
+    - Simple Linear Regression Case Study
+    - Correlation
+  - Multiple Linear and Nonlinear Regression
+    - Estimating the Coefficients
       - Polynomial Regression
-      - Exponential Regression
-      - Logarithmic Regression
-      - Power Regression
-      - Generalised Additive Models (GAMs) 
-    - Evaluating Non-Linear Regression Models
-    - Operating Principle
-    - Python Implementation
-      - Importing Libraries
-      - Importing the Dataset
-      - Plotting the original Data
-      - Simple Logistic Curve Model
-      - Define Sigmoid Function
-      - Plot the initial prediction against data-points
-    - Normalising Data
-      - Fitting sigmoid function to normalized data
-      - Normalised Sigmoid Regression
-      - Predictions
-      - Applications
-      - Advantages & Disadvantages of Non-Linear Regression
-  - Recursive Least Square
-  - Least Absolute Shrinkage and Selection Operator (LASSO)
-    - The concept of LASSO
-      - Operation Principle
-    -  Python Implementation
-    - Advantages & Disadvantages
-      - Advantages
-      - Disadvantages
+    - Linear Regression Model Using Matrices
+    - Properties of the Least Squares Estimators
+      - Analysis of Variance in Multiple Regression
+    - Inferences in Multiple Linear Regression
+      - Individual t-Tests for Variable Screening
+      - Inferences on Mean Response and Prediction
+      - More on Analysis of Variance in Multiple Regression (Optional)
+      - Degrees of Freedom
+      - Hypothesis of Interest
+    - Choice of a Fitted Model through Hypothesis Testing
+      - The Adjusted Coefficient of Determination R[adj][2]
+      - How Are R[][2] and R[adj][2] Affected by Removal of x[3]?
+      - Test on an Individual Coefficient
+      - Does a Single Variable t-Test Have an F Counterpart?
+      - Partial F-Tests on Subsets of Coefficients
+      - Special Case of Orthogonality (Optional)
+    - Categorical or Indicator Variables
+      - Model with Categorical Variables
+      - Three Categories
+      - Slope May Vary with Indicator Categories
+    - Sequential Methods for Model Selection
+      - Illustration of Variable Screening in the Presence of Collinearity
+      - Stepwise Regression
+      - Summary
+  - Study of Residuals and Violation of Assumptions
+      - Normality Checking
+    - Cross Validation, and Other Criteria for Model Selection
+      - Use of the PRESS Statistic
+      - The C[p] Statistic
+    - Special Nonlinear Models for Nonideal Conditions
+      - Nonhomogeneous Variance
+      - Binary Response (Logistic Regression)
+      - What Is the Model for Logistic Regression?
+      - Characteristics of Logistic Function
+      - Estimate of Effective Dose
+      - Concept of Odds Ratio
+      - Potential Misconceptions and Hazards
+- Single Factor Experiments
+  - Analysis-of-Variance Technique
+    - Two Sources of Variability in the Data
+  - One-Way Analysis of Variance
+    - Assumptions and Hypotheses in One-Way ANOVA
+    - Model for One-Way ANOVA
+    - Resolution of Total Variability into Components
+    - Use of F-Test in ANOVA
+    - F-Ratio for Testing Equality of Means
+  - Tests for the Equality of Several Variances
+  - Single-Degree-of-Freedom Comparisons
+  - Multiple Comparisons
+    - Relationship between T and F
+    - Confidence Interval Approach to a Paired Comparison
+    - Experiment-wise Error Rate
+    - Tukey's Test
+    - Where Does the alpha-Level Come From in Tukey's Test?
+    - Duncan's Test
+    - Dunnett's Test: Comparing Treatment with a Control
+  - Comparing a Set of Treatments in Blocks
+    - What Is the Purpose of Blocking?
+  - Randomized Complete Block Designs
+    - Model for the RCB Design
+    - Further Comments Concerning Blocking
+    - Interaction between Blocks and Treatments
+  - Graphical Methods and Model Checking
+    - What Is a Residual for an RCB Design?
+  - Data Transformations in Analysis of Variance
+    - Where Does Nonhomogeneous Variance Come From?
+  - Random Effects Models
+    - Model and Assumptions for Random Effects Model
+    - Estimation of Variance Components
+    - Randomized Block Design with Random Blocks
+  - Case Study
+    - Residual Plots
+    - Potential Misconceptions and Hazards
+- Factorial Experiments
+  - Interaction in the Two-Factor Experiment
+    - Interaction and the Interpretation of Main Effects
+    - A Graphical Look at Interaction
+    - Need for Multiple Observations
+  - Two-Factor Analysis of Variance
+    - Model and Hypotheses for the Two-Factor Problem
+    - Three-Factor Experiments
+    - Factorial Experiments for Random Effects and Mixed Models
+  - 2 over k Factor Experperiments
+      - Effects and Sums of Squares
+    - Nonreplicated 2 over k Factorial Experiment
+      - Diagnostic Plotting with Nonreplicated Factorial Experiments
+      - Interpretation of Two-Factor Interaction
+      - Analysis with Pooled Mean Square Error: Annotated Computer Printout
+    - Factorial Experiments in a Regression Setting
+      - Interaction in the Regression Model
+  - The Orthogonal Design
+      - Standard Error of Coefficients and T-Tests
+      - An Intuitive Look at the Test on Curvature
+    - Fractional Factorial Experiments
+      - How Aliases Are Determined in General
+      - Formal Construction
+      - Construction
+    - Analysis of Fractional Factorial Experiments
+    - Introduction to Response Surface Methodology
+      - The Second-Order Response Surface Model
+      - Other Comments Concerning Response Surface Analysis
+    - Robust Parameter Design
+      - Simultaneous Analysis of Process Mean and Variance
+      - Alternative Approaches to Robust Parameter Design
+      - The Role of the Control-by-Noise Interaction
+      - Analysis Involving the Model Containing Both Control and Noise Variables
+      - The Mean and Variance Response Surfaces
+- Nonparametric Statistics
+  - Nonparametric Tests
+    - Sign Test
+  - Signed-Rank Test
+    - Two Samples with Paired Observations
+    - Normal Approximation for Large Samples
+  - Wilcoxon Rank-Sum Test
+    - Normal Theory Approximation for Two Samples
+  - Kruskal-Wallis Test
+  - Runs Test
+  - Tolerance Limits
+  - Rank Correlation Coefficient
+- Bayesian Statistics
+  - Initial Concepts
+    - Subjective Probability
+    - Conditional Perspective
+    - Bayesian Applications
+  - Bayesian Inferences
+    - Bayesian Interval Estimation
+  - Bayes Estimates Using Decision Theory Framework
+    - Squared-Error Loss
+    - Absolute-Error Loss
+- The Essentials of Machine Learning
+    - Introduction
+  - Defining Machine Learning
+    - The Purpose
+    - Some Areas of Applications
+  - Types of Machine Learning Systems
+      - Unsupervised Learning
+      - Semi Supervised Learning
+      - Self-supervised Learning
+      - Reinforcement Learning
+    - Batch v. Online Learning
+    - Batch Learning
+    - Online Leraning
+    - Instance v. Model Based Learning
+    - Instance-Based Learning
+      - Model-Based Learning
+- A Machine Learning Project
+  - Introduction
+  - Working with Real Data
+    - Looking at the Bigger Picture
+    - Framing the Problem
+    - Selecting a Perfomance Measure
+    - Reassesing the Assumptions
+  - Downloading the Data
+    - An Overview of the Dataset Structure
+  - Creating a Test Set
+  - Visualising Data
+    - Geographic Data
+    - Observing Correlations
+    - Studying Attributes
+  - Preparing the Data
+    - Cleaning the Data
+    - Handling Text and Categorical Attributes
+    - Feature Scaling
+    - Transformation Pipelines
+
 
 ** Documentation
 
-For any student in need of a LaTex class designed from the ground-up for
+For any student in need of a LaTeX class designed from the ground-up for
 assignment/lab/thesis/slide for MCI needs please have a look at ~mcidoc~ class
-hosted at [[https://github.com/dTmC0945/C-MCI-LaTeX-Class-mcidoc][GitHub]].      
+hosted at [[https://github.com/dTmC0945/C-MCI-LaTeX-Class-mcidoc][GitHub]].
 
-(-DTMc 2025)
